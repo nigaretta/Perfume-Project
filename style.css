@@ -1,0 +1,77 @@
+body {
+    background-color:rgb(238, 234, 228);
+    margin:0;
+    padding:0;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.image {
+    width:90%;
+    max-width: 300px;
+    border-radius: 8px 0 0 8px;
+}
+
+.paragraph {
+    width: 100%;
+    flex: 1;
+    max-width: 300px;
+    height:480px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 0 8px 8px 0;
+    padding: 20px;
+}
+   
+
+.sentence, .heading, h1 {
+    padding-left: 20px;
+}
+
+.sentence, .heading, .original-price, .button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+h1, .sale-price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sale-price {
+    color: rgb(52, 142, 112);
+    font-size: 30px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+
+.price {
+    display: flex;
+    margin-left: 20px;
+}
+
+.button {
+    width: 100%; 
+    max-width: 250px; 
+    height: 45px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(52, 142, 112);
+    border: none;
+    border-radius: 8px;
+    margin-left:5px;
+    
+}
+
+.button:hover {
+    background-color: rgb(40, 71, 61);
+    cursor: pointer;
+}
+
